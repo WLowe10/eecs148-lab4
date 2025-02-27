@@ -1,67 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Practice 2</title>
-        <script src="practice2.js" defer></script>
-    </head>
-    <body>
-        <div id="box">Lorem ipsum</div>
-        <form id="style_form">
-            <div>
-                <p>
-                    Background color (RGB)
-                </p>
-                <div>
-                    <label for="background_color_r">
-                        R
-                    </label>
-                    <input id="background_color_r" type="text" placeholder="0-255" />
-                </div>
-                <div>
-                    <label for="background_color_g">
-                        G
-                    </label>
-                    <input id="background_color_g" type="text" placeholder="0-255" />
-                </div>
-                <div>
-                    <label for="background_color_b">
-                        B
-                    </label>
-                    <input id="background_color_b" type="text" placeholder="0-255" />
-                </div>
-            </div>
-            <div>
-                <p>
-                    Border color (RGB)
-                </p>
-                <div>
-                    <label for="border_color_r"">
-                        R
-                    </label>
-                    <input id="border_color_r" type="text" placeholder="0-255" />
-                </div>
-                <div>
-                    <label for="border_color_g">
-                        G
-                    </label>
-                    <input id="border_color_g" type="text" placeholder="0-255" />
-                </div>
-                <div>
-                    <label for="border_color_b">
-                        B
-                    </label>
-                    <input id="border_color_b" type="text" placeholder="0-255" />
-                </div>
-            </div>
-            <div>
-                <p>Border width</p>
-                <input id="border_width" type="text" placeholder="0" />
-            </div>
-            <button type="submit">
-                Apply styles
-            </button>
-        </form>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice 2</title>
+    <script src="practice2.js" defer></script>
+  </head>
+  <body>
+    <div id="box">Lorem ipsum</div>
+    <form id="style_form">
+      <div>
+        <p>Background color (RGB)</p>
+        <div>
+          <label for="background_color_r"> R </label>
+          <input
+            id="background_color_r"
+            name="background_color_r"
+            type="text"
+            placeholder="0-255"
+          />
+        </div>
+        <div>
+          <label for="background_color_g"> G </label>
+          <input
+            id="background_color_g"
+            name="background_color_g"
+            type="text"
+            placeholder="0-255"
+          />
+        </div>
+        <div>
+          <label for="background_color_b"> B </label>
+          <input
+            id="background_color_b"
+            name="background_color_b"
+            type="text"
+            placeholder="0-255"
+          />
+        </div>
+      </div>
+      <div>
+        <p>Border color (RGB)</p>
+        <div>
+          <label for="border_color_r"> R </label>
+          <input
+            id="border_color_r"
+            name="border_color_r"
+            type="text"
+            placeholder="0-255"
+          />
+        </div>
+        <div>
+          <label for="border_color_g"> G </label>
+          <input
+            id="border_color_g"
+            name="border_color_g"
+            type="text"
+            placeholder="0-255"
+          />
+        </div>
+        <div>
+          <label for="border_color_b"> B </label>
+          <input
+            id="border_color_b"
+            name="border_color_b"
+            type="text"
+            placeholder="0-255"
+          />
+        </div>
+      </div>
+      <div>
+        <label for="border_width">Border width</label>
+        <input
+          id="border_width"
+          name="border_width"
+          type="text"
+          placeholder="0"
+        />
+      </div>
+      <button type="submit">Apply styles</button>
+    </form>
+  </body>
 </html>
